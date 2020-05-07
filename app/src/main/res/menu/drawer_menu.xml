@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_face"
+            android:title="Meus dados"/>
+        <item android:id="@+id/nav_score"
+            android:icon="@drawable/ic_game"
+            android:title="Pontos"/>
+        <item android:id="@+id/nav_sonhos"
+            android:icon="@drawable/ic_cloud"
+            android:title="Sonhos"/>
+        <item android:id="@+id/nav_notificacoes"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notificações"/>
+        <item android:id="@+id/nav_teste"
+            android:icon="@drawable/ic_teste"
+            android:title="teste"/>
+    </group>
+
+    <item android:title="Mais">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
